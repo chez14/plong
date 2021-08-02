@@ -1,0 +1,13 @@
+{
+  "name": "plong",
+  "version": "0.0.1",
+  "description": "chez14's design system",
+  "main": "index.js",
+  "repository": "git@github.com:chez14/plong.git",
+  "author": "Chris \"chez14\" Qiang <chris@christianto.net>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ]
+}
