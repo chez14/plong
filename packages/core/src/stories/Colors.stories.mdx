@@ -1,0 +1,42 @@
+import { Meta } from '@storybook/addon-docs';
+
+<Meta title="Colors" />
+
+# Colors
+
+Plong extends [default colors from
+Tailwind](https://tailwindcss.com/docs/customizing-colors) with chez14's
+personal branding. This includes the Wandering White, Restless Red, and Gloomy
+Gray.
+
+Here's the corresponding Pantone Color ID: 
+
+- Worrying White: [PANTONE 427 C](https://www.pantone.com/color-finder/427-C)
+(`#D0D3D4`) 
+
+- Restless Red: [PANTONE 1788 C](https://www.pantone.com/color-finder/1788-C)
+(`#EE2737`) 
+
+- Gloomy Gray: [PANTONE 433 C](https://www.pantone.com/color-finder/433-C)
+(`#1D252D`)
+
+Those colors then get extended to fit [Tailwind's color
+convention](https://tailwindcss.com/docs/customizing-colors). "Pure" color will
+be assigned to `600` and then spread with SASS's `lighten`/`darken` function to
+fit the rest of color palletes.
+
+## Palette
+
+- Worrying White `worryingWhite`
+- Restless Red `restlessRed`
+- Gloomy Gray `gloomyGray`
+- Gray `coolGray`
+- Red `red`
+- Yellow `amber`
+- Green `emerald`
+- Blue `blue`
+- Indigo `indigo`
+- Purple `violet`
+- Pink `pink`
+
+
