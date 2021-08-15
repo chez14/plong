@@ -12,9 +12,11 @@ export const parameters = {
   docs: {
     theme: themes.dark,
   },
-  storySort: {
-    method: 'alphabetical',
-    order: ['Introduction', 'Colors'],
-    locales: 'en-ID',
-  },
+  options: {
+    storySort: {
+      method: 'alphabetical',
+      order: ['Introduction', 'Colors'],
+      locales: 'en-ID',
+    },
+  }
 }
